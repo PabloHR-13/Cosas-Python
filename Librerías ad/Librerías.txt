@@ -1,0 +1,19 @@
+PyAD -> Libreria de active directory para python
+OS -> Librería de linux para python
+
+Página oficial de PyAD
+https://pypi.org/project/pyad/
+
+Lista de reproducción de vídeos que nos eneseña a automatizar procesos de AD con Python (tutorial)
+https://www.youtube.com/watch?v=ersTjr47_nw&list=PLI8raxzYtfGxPXHe9gvILZDgEiBuu_cyZ
+-Creación de usuarios, grupos...
+-Actualización
+-Borrado
+-etc..
+
+
+Repositorio con algunos scripts de PyAD
+https://github.com/zakird/pyad/tree/master/pyad
+
+Automatizar Active Directory con RPYC:
+https://www.youtube.com/watch?v=zjTkIgU8Teo&list=PLYf4Vz9V1ESqob7r-nme7dOruKD-NS9lw&index=1
