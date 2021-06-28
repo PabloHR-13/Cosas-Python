@@ -15,8 +15,10 @@ ruta = input("Introduzca la ruta con el archivo que va a adjuntar (Introduce la 
 adjunto = MIMEBase("application","octect-stream")
 adjunto.set_payload(open(ruta,"rb").read())
 #adjunto.set_payload(open("correo_prueba.txt","rb").read())
+
 nombre = input("Introduce el nombre del archivo que se va a adjuntar: ")
 #adjunto.add_header("content-Disposition",'attachment; filename="mensaje.txt"')
+
 adjunto.add_header("content-Disposition",'attachment; filename={}' .format(nombre))
 mensaje.attach(adjunto)
 smtp = SMTP("smtp.gmail.com")
