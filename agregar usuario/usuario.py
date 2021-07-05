@@ -54,7 +54,7 @@ for i in range(mensajes, mensajes - N, -1):
                     except:
                         pass
 
-print (body)
+#print (body)
 cadena_usuario = body.split(":")
 
 cadena_usuario_final = cadena_usuario[1].split("<")
@@ -76,6 +76,8 @@ imap.close()
 imap.logout()
 
 pyad.set_defaults(ldap_server="",username="",password="")
+
+#Añade tus credenciales del AD 
 
 ou=pyad.adcontainer.ADContainer.from_dn("ou=,dc=,dc=")
 new_user=pyad.aduser.ADUser.create("", ou, password="")
