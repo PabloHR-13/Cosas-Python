@@ -72,32 +72,3 @@ pyad.set_defaults(ldap_server="",username="",password="")
 
 ou=pyad.adcontainer.ADContainer.from_dn("ou=,dc=,dc=")
 new_user=pyad.aduser.ADUser.create(diccionario["usuario"], ou, password=diccionario["contraseña"])
-
-
-
-# print(variable)
-
-# cadena_usuario = body.split(":")
-
-# cadena_usuario_final = cadena_usuario[1].split("<")
-# usuario = cadena_usuario_final[0]
-
-# cadena_pass_final = cadena_usuario[2].split("<")
-# pass_ = cadena_pass_final[0]
-
-# cadena_correo_final = cadena_usuario[4].split("<")
-# correo = cadena_correo_final[0]
-
-# usuario = usuario.replace(" ", "")
-
-# print ("------------> %s" % (usuario))
-# print ("------------> %s" % (pass_))
-# print ("------------> %s" % (correo))
-
-
-
-# print ("------------> %s" % (usuario))
-# print ("------------> %s" % (pass_))
-# print ("------------> %s" % (correo))
-
-
