@@ -67,6 +67,7 @@ for i in range(mensajes, mensajes - N, -1):
 imap.close()
 imap.logout()
 
+#Añade tus credenciales de AD
 pyad.set_defaults(ldap_server="",username="",password="")
 
 ou=pyad.adcontainer.ADContainer.from_dn("ou=,dc=,dc=")
